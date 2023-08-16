@@ -1,0 +1,20 @@
+server:
+  port: 8088
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+spring:
+  application:
+    name: meus-contatos
+
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/mongo
+
+
+
+
